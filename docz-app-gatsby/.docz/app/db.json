@@ -68,10 +68,51 @@
       }
     },
     {
+      "key": "docs/aaa.mdx",
+      "value": {
+        "menu": "Components",
+        "route": "/docs/aaa",
+        "id": "e1fabbb10e6607f6918146148e7d481a",
+        "filepath": "docs/aaa.mdx",
+        "fullpath": "/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/docs/aaa.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/docz-app-gatsby/docs/aaa.mdx",
+        "slug": "docs-aaa",
+        "name": "Aaa",
+        "headings": [
+          {
+            "slug": "ciao",
+            "depth": 1,
+            "value": "ciao"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/example.mdx",
+      "value": {
+        "menu": "Components",
+        "fullpage": true,
+        "route": "/docs/example",
+        "id": "a06dd1f44a09a67ec093492e2f4f787f",
+        "filepath": "docs/example.mdx",
+        "fullpath": "/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/docs/example.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/docz-app-gatsby/docs/example.mdx",
+        "slug": "docs-example",
+        "name": "Example",
+        "headings": [
+          {
+            "slug": "ciao",
+            "depth": 1,
+            "value": "ciao"
+          }
+        ]
+      }
+    },
+    {
       "key": "docs/index.mdx",
       "value": {
         "menu": "Xxx",
-        "route": "/docs",
+        "route": "/docs/",
         "id": "73498ad0e1e62a714b08085d318f9de1",
         "filepath": "docs/index.mdx",
         "fullpath": "/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/docs/index.mdx",
