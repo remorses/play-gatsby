@@ -1,0 +1,104 @@
+{
+  "config": {
+    "title": "Docz Example Gatsby",
+    "description": "Example of how to integrate docz with gatsby as a theme",
+    "menu": [
+      "Home",
+      "Components"
+    ],
+    "version": "2.0.0-rc.41",
+    "repository": "https://github.com/pedronauck/docz",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "base": "/docs",
+    "ignore": [
+      "./pages"
+    ]
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/README.md",
+        "link": "https://github.com/pedronauck/docz/edit/master/docz-app-gatsby/README.md",
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "docz-gatsby-example",
+            "depth": 1,
+            "value": "Docz Gatsby Example"
+          },
+          {
+            "slug": "using-create-docz-app",
+            "depth": 2,
+            "value": "Using  create-docz-app"
+          },
+          {
+            "slug": "download",
+            "depth": 2,
+            "value": "Download"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "start-developing",
+            "depth": 2,
+            "value": "Start developing"
+          },
+          {
+            "slug": "build",
+            "depth": 2,
+            "value": "Build"
+          },
+          {
+            "slug": "serve-built-app",
+            "depth": 2,
+            "value": "Serve built app"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/index.mdx",
+      "value": {
+        "menu": "Xxx",
+        "route": "/docs",
+        "id": "73498ad0e1e62a714b08085d318f9de1",
+        "filepath": "docs/index.mdx",
+        "fullpath": "/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/docs/index.mdx",
+        "link": "https://github.com/pedronauck/docz/edit/master/docz-app-gatsby/docs/index.mdx",
+        "slug": "docs-index",
+        "name": "Index",
+        "headings": [
+          {
+            "slug": "ciao",
+            "depth": 1,
+            "value": "ciao"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/pages/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    }
+  ]
+}
