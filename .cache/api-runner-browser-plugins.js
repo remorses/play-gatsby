@@ -1,7 +1,10 @@
 module.exports = [{
-      plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      plugin: require('../node_modules/gatsby-plugin-mdx/gatsby-browser.js'),
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/node_modules/gatsby-theme-docz/src/base/Layout.js"}},
     },{
-      plugin: require('../gatsby-browser.js'),
+      plugin: require('../node_modules/gatsby-plugin-react-helmet-async/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('../node_modules/gatsby-theme-docz/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

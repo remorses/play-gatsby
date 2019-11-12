@@ -1,9 +1,12 @@
 var plugins = [{
-      plugin: require('/Users/morse/Documents/GitHub/play-gatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/node_modules/gatsby-theme-docz/src/base/Layout.js"}},
+    },{
+      plugin: require('/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/node_modules/gatsby-plugin-react-helmet-async/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/morse/Documents/GitHub/play-gatsby/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      plugin: require('/Users/morse/Documents/GitHub/play-gatsby/docz-app-gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
